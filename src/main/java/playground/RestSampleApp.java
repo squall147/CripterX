@@ -1,7 +1,12 @@
 package playground;
 
-/**
- * Created by Robert_Kaszubowski on 5/29/2017.
- */
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
 public class RestSampleApp {
+
+    public static void main(String[] args) {
+        SpringApplication.run(RestSampleApp.class, args);
+    }
 }

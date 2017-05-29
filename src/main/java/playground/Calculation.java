@@ -2,9 +2,6 @@ package playground;
 
 import java.util.List;
 
-/**
- * Created by Robert_Kaszubowski on 5/29/2017.
- */
 public class Calculation {
 
     String function;
